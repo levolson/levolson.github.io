@@ -1,0 +1,115 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+a{text-decoration:none;color:inherit;}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a,span,i,img{display:inline-block;}
+input,select,button{border:0;outline:0;vertical-align:middle;background:transparent;border-radius:0;
+                    appearance:none;cursor:inherit;}
+.blind{
+  width:0;height:0;position:absolute;margin:-1px;overflow:hidden;
+}
+.inner{
+  max-width:1350px;width:100%;margin:0 auto;
+}
+/*header*/
+.logo{background-image:url('./img/logo.png');background-repeat:no-repeat;width:60px;height:60px;}
+.nav{
+  width:900px;display:flex;justify-content:space-between;
+}
+.nav li{width:calc(100%/6 - 5px);cursor: pointer;}
+.nav a{width:100%;}
+.nav p{margin-left:50px;}
+header .inner{display:flex;justify-content:space-between;}
+.logo-718{background-image:url('./img/logo_718.jpg');background-repeat:no-repeat;background-size:cover;width:100%;height:80px;}
+.logo-911{background-image:url('./img/logo_911.jpg');background-repeat:no-repeat;background-size:cover;width:100%;height:80px;}
+.logo-tay{background-image:url('./img/logo_tay.jpg');background-repeat:no-repeat;background-size:cover;width:100%;height:80px;}
+.logo-pana{background-image:url('./img/logo_pana.jpg');background-repeat:no-repeat;background-size:cover;width:100%;height:80px;}
+.logo-macan{background-image:url('./img/logo_macan.jpg');background-repeat:no-repeat;background-size:cover;width:100%;height:80px;}
+.logo-cay{background-image:url('./img/logo_cay.jpg');background-repeat:no-repeat;background-size:cover;width:100%;height:80px;}
+.info{
+  display:flex;justify-content:space-around;width:300px;margin-top: 25px;
+}
+.place{display:flex;justify-content:space-around;cursor: pointer;}
+.my{display:flex;justify-content:space-around;cursor: pointer;}
+.icon{margin-top:5px;margin-right:10px;}
+
+/*visual*/
+.visual{background-image:url('./img/silder_2.jpg');background-repeat:no-repeat;background-size:cover;width:100%;height:900px;margin-top:100px;}
+.visual h2{font-size:50px;color:#fff;font-weight:700;margin-left:50%;transform:translate(-30%);padding-top:15%;}
+
+/*main*/
+main{margin-top:100px;}
+.m-tittle{font-size:80px;font-weight:700;margin-bottom:50px;margin-top:50px;}
+.m-menu{display:flex;flex-wrap:wrap;}
+.arrow{background-image:url('./img/arrow.png');background-repeat:no-repeat;background-size:cover;width:20px;height:35px;}
+.tittle{font-size:50px;font-weight:700;color:#fff;padding-left:20px;}
+.s-tittle{position:absolute;left:20px;bottom:20px;font-size:40px;background-color:#fff;padding:5px 10px;cursor: pointer;}
+.s-tittle:hover{background-color:orange;}
+.v-718{background-image:url('./img/mod_1.jpg');background-repeat:no-repeat;background-size:cover;position:relative;width:calc(100%/3);height:500px;}
+.v-911{background-image:url('./img/mod_2.jpg');background-repeat:no-repeat;background-size:cover;position:relative;width:calc(100%/3);height:500px;}
+.v-tay{background-image:url('./img/mod_3.jpg');background-repeat:no-repeat;background-size:cover;position:relative;width:calc(100%/3);height:500px;}
+.v-pana{background-image:url('./img/mod_4.jpg');background-repeat:no-repeat;background-size:cover;position:relative;width:calc(100%/3);height:500px;}
+.v-macan{background-image:url('./img/mod_5.jpg');background-repeat:no-repeat;background-size:cover;position:relative;width:calc(100%/3);height:500px;}
+.v-cay{background-image:url('./img/mod_6.jpg');background-repeat:no-repeat;background-size:cover;position:relative;width:calc(100%/3);height:500px;}
+
+.spe{margin-top:50px;position:relative;}
+.s-spe{background-image:url('./img/spe_bg.jpg');background-repeat:no-repeat;background-size:cover;width:100%;height:500px;}
+.spe p{font-size:30px;color:#fff;position:absolute;left:40%;top:60%;}
+.spe h3{font-size:50px;font-weight:700;color:#fff;position:absolute;left:35%;top:70%;}
+
+.shop p{color:#fff;font-size:40px;font-weight:700;position:absolute;left:35%;bottom:0%;}
+.shop .list{display:flex;justify-content:space-between;}
+.shop .list li{width:calc(100%/2 - 5px);}
+.shop1{background-image:url('./img/shp_1.jpg');background-repeat:no-repeat;background-size:cover;position:relative;width:100%;height:350px;}
+.shop2{background-image:url('./img/shp_2.jpg');background-repeat:no-repeat;background-size:cover;position:relative;width:100%;height:350px;}
+
+.dis p{font-size:20px;margin-left:50%;transform:translateX(-50%);}
+.dis-list{display:flex;width:100%;justify-content:space-between;}
+.dis-list li{width:calc(100%/4 - 5px);}
+.dis1{background-image:url('./img/dic_1.jpg');background-repeat:no-repeat;background-size:cover;width:100%;height:350px;}
+.dis2{background-image:url('./img/dic_2.jpg');background-repeat:no-repeat;background-size:cover;width:100%;height:350px;}
+.dis3{background-image:url('./img/dic_3.jpg');background-repeat:no-repeat;background-size:cover;width:100%;height:350px;}
+.dis4{background-image:url('./img/dic_4.jpg');background-repeat:no-repeat;background-size:cover;width:100%;height:350px;}
+
+/*footer*/
+footer{background-color:#000;margin-top:100px;}
+footer p{color:#fff;font-size:14px;}
+footer .f1{margin-bottom:50px;}
+footer .f2{margin-top:50px;}
